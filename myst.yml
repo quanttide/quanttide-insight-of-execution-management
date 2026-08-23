@@ -1,0 +1,21 @@
+version: 1
+project:
+  title: 量潮执行管理洞察
+  description: 执行管理领域的机制、结构洞与差距——法人记忆、提炼、职责接棒
+  keywords:
+    - 量潮执行云
+    - 执行管理
+    - 洞察
+  authors:
+    - name: 量潮科技
+  license: CC-BY-4.0
+  exclude:
+    - CHANGELOG.md
+  toc:
+    - file: README.md
+    - title: 洞察
+      children:
+        - file: index.md
+        - file: subject/legal-person-memory-subject.md
+site:
+  template: book-theme
