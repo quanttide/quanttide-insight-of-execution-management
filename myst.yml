@@ -34,5 +34,8 @@ project:
     - title: 迁移
       children:
         - file: transition/natural-migration.md
+    - title: 实现
+      children:
+        - file: implementation/current-legal-person-stage.md
 site:
   template: book-theme

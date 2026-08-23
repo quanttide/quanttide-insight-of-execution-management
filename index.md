@@ -13,6 +13,7 @@ execution/   # 执行环节：评审闭环怎么成立
 foundation/  # 底座：为什么必然自持
 consumption/ # 消费：法人记忆在什么节奏、什么场景被用（周会）
 transition/  # 迁移：为什么这样切能自然落地（保住单一声源、迁移宿主而非断裂心智）
+implementation/ # 实现：现状落在哪个阶段、设计↔代码差距
 ```
 
 ## 主题文章
@@ -31,6 +32,8 @@ transition/  # 迁移：为什么这样切能自然落地（保住单一声源�
   - [周会是法人记忆的消费场景](consumption/weekly-meeting.md)
 - **迁移**（[transition/](transition)）：
   - [迁移宿主，而非断裂心智](transition/natural-migration.md)
+- **实现**（[implementation/](implementation)）：
+  - [代码目前精确停在「法人阶段」](implementation/current-legal-person-stage.md)
 
 ## 关联档案
 
