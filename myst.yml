@@ -28,5 +28,8 @@ project:
     - title: 底座
       children:
         - file: foundation/self-owned-base.md
+    - title: 消费
+      children:
+        - file: consumption/weekly-meeting.md
 site:
   template: book-theme

@@ -7,10 +7,11 @@
 按主题分文件夹，各主题文件为入口：
 
 ```
-subject/    # 主体：谁该记得（法人记忆、记忆主体倒换）
-solution/   # 解决逻辑：看清→推进→提炼 各自解决什么
-execution/  # 执行环节：评审闭环怎么成立
-foundation/ # 底座：为什么必然自持
+subject/     # 主体：谁该记得（法人记忆、记忆主体倒换）
+solution/    # 解决逻辑：看清→推进→提炼 各自解决什么
+execution/   # 执行环节：评审闭环怎么成立
+foundation/  # 底座：为什么必然自持
+consumption/ # 消费：法人记忆在什么节奏、什么场景被用（周会）
 ```
 
 ## 主题文章
@@ -25,6 +26,8 @@ foundation/ # 底座：为什么必然自持
   - [职责接棒：执行环节的闭环](execution/responsibility-handover.md)
 - **底座**（[foundation/](foundation)）：
   - [自持的底座](foundation/self-owned-base.md)
+- **消费**（[consumption/](consumption)）：
+  - [周会是法人记忆的消费场景](consumption/weekly-meeting.md)
 
 ## 关联档案
 
