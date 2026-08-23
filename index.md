@@ -4,15 +4,27 @@
 
 ## 主题
 
-按主题分文件夹，各主题 `index.md` 或主题文件为入口：
+按主题分文件夹，各主题文件为入口：
 
 ```
-subject/   # 主体：谁该记得（法人记忆、记忆主体倒换）
+subject/    # 主体：谁该记得（法人记忆、记忆主体倒换）
+solution/   # 解决逻辑：看清→推进→提炼 各自解决什么
+execution/  # 执行环节：评审闭环怎么成立
+foundation/ # 底座：为什么必然自持
 ```
 
-## 本文主题
+## 主题文章
 
-- [法人是记忆的主体，不是放任务的容器](subject/legal-person-memory-subject.md)
+- **主体**（[subject/](subject)）：
+  - [法人是记忆的主体，不是放任务的容器](subject/legal-person-memory-subject.md)
+  - [为什么是「法人」](subject/why-legal-person.md)
+  - [可嵌套的法人：一个清单就是一个次级法人](subject/nested-legal-person.md)
+- **解决逻辑**（[solution/](solution)）：
+  - [看清 → 推进 → 提炼](solution/see-advance-distill.md)
+- **执行环节**（[execution/](execution)）：
+  - [职责接棒：执行环节的闭环](execution/responsibility-handover.md)
+- **底座**（[foundation/](foundation)）：
+  - [自持的底座](foundation/self-owned-base.md)
 
 ## 关联档案
 

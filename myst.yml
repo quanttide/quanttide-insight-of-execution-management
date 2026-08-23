@@ -13,9 +13,20 @@ project:
     - CHANGELOG.md
   toc:
     - file: README.md
-    - title: 洞察
+    - title: 主体
       children:
         - file: index.md
         - file: subject/legal-person-memory-subject.md
+        - file: subject/why-legal-person.md
+        - file: subject/nested-legal-person.md
+    - title: 解决逻辑
+      children:
+        - file: solution/see-advance-distill.md
+    - title: 执行环节
+      children:
+        - file: execution/responsibility-handover.md
+    - title: 底座
+      children:
+        - file: foundation/self-owned-base.md
 site:
   template: book-theme
