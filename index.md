@@ -12,6 +12,7 @@ solution/    # 解决逻辑：看清→推进→提炼 各自解决什么
 execution/   # 执行环节：评审闭环怎么成立
 foundation/  # 底座：为什么必然自持
 consumption/ # 消费：法人记忆在什么节奏、什么场景被用（周会）
+transition/  # 迁移：为什么这样切能自然落地（保住单一声源、迁移宿主而非断裂心智）
 ```
 
 ## 主题文章
@@ -28,6 +29,8 @@ consumption/ # 消费：法人记忆在什么节奏、什么场景被用（周�
   - [自持的底座](foundation/self-owned-base.md)
 - **消费**（[consumption/](consumption)）：
   - [周会是法人记忆的消费场景](consumption/weekly-meeting.md)
+- **迁移**（[transition/](transition)）：
+  - [迁移宿主，而非断裂心智](transition/natural-migration.md)
 
 ## 关联档案
 

@@ -31,5 +31,8 @@ project:
     - title: 消费
       children:
         - file: consumption/weekly-meeting.md
+    - title: 迁移
+      children:
+        - file: transition/natural-migration.md
 site:
   template: book-theme
