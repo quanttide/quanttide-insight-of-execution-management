@@ -4,10 +4,10 @@
 
 ## 现状（设计 ↔ 代码何以对应）
 
-- **清单=次级法人**：`data/tasks.json` 顶层 `{lists:[{id,name,tasks:[...]}]}`，与 Go `List{ID,Name,Tasks}`、Dart `TaskList{id,name,tasks}` 完全一致。`task` = 法人要记住的一件事（id/title/description/status/priority/category）。
+- **清单=次级法人**：provider 任务数据契约顶层 `{lists:[{id,name,tasks:[...]}]}`，与 Go `List{ID,Name,Tasks}`、Dart `TaskList{id,name,tasks}` 完全一致。`task` = 法人要记住的一件事（id/title/description/status/priority/category）。
 - **看清=状态泳道**：`TaskStatus` 枚举 notStarted/inProgress/reviewing/done，与 provider 常量一一对应；看板按状态分列。
 - **推进=拖拽即存**：`Task.moveTo`（`copyWith`）→ `PUT /api/lists/{id}/tasks/{taskId}`（upsert）→ 落盘。无「改状态+再记一条」的中间步。
-- **记忆自持**：`store.Store`（local/OSS）抽象，`QTCLOUD_EXECUTE_STORE=oss` 走 `qtcloud-execute-provider` 桶；文件也在 git（`data/profile`）可版本化。
+- **记忆自持**：`store.Store`（local/OSS）抽象，`QTCLOUD_EXECUTE_STORE=oss` 走 `qtcloud-execute-provider` 桶。
 - **周会读系统**：客户端 `loadLists()` → 网关 `api.quanttide.com/qtcloud-execute` → FC → OSS，能读全局法人记忆。
 
 ## 差距
